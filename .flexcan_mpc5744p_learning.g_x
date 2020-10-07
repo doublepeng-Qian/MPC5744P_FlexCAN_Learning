@@ -1,0 +1,91 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Includes</name>
+      <values lines_count="7">
+        <Line>"${S32_SDK_PATH}/platform/drivers/src/clock/MPC57xx"</Line>
+        <Line>"${S32_SDK_PATH}/rtos/osif/"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/common"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/MPC5744P/include"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/MPC5744P/startup"</Line>
+        <Line>"${S32_SDK_PATH}/platform/drivers/inc"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Symbols</name>
+      <values lines_count="1">
+        <Line>CPU_MPC5744P</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ilg_gnuarmeclipse_managedbuild_cross_option_c_compiler_defs</name>
+      <values lines_count="1">
+        <Line>"CPU_MPC5744P_144"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="SDK/rtos/osif/osif_baremetal.c" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="Generated_Code/pin_mux.c" FileDate="2020-10-07, 11:40:37" FileAge="1602042037522" FileType="45637" CompNumb="18" />
+      <File Name="Project_Settings/Linker_Files/linker_flash.ld" FileDate="2019-06-25, 03:49:06" FileAge="1561405746000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/clock.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/flexcan/flexcan_driver.c" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/edma_driver.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="Generated_Code/dmaController1.h" FileDate="2020-10-07, 11:40:37" FileAge="1602042037548" FileType="45637" CompNumb="15" />
+      <File Name="SDK/platform/drivers/inc/flexcan_driver.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/devices/callbacks.h" FileDate="2019-06-25, 03:49:04" FileAge="1561405744000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/edma/edma_hw_access.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/siul2/pins_siul2_driver.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/flexcan/flexcan_hw_access.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/clock_manager.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="Generated_Code/dmaController1.c" FileDate="2020-10-07, 11:40:37" FileAge="1602042037542" FileType="45637" CompNumb="15" />
+      <File Name="SDK/platform/drivers/src/edma/edma_hw_access.c" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/siul2/pins_siul2_driver.c" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/flexcan/flexcan_hw_access.c" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="Documentation/flexcan_mpc5744p_learning_Settings.xml" FileDate="2020-10-07, 11:40:37" FileAge="1602042037583" FileType="3072" />
+      <File Name="Generated_Code/canCom1.h" FileDate="2020-10-07, 11:40:37" FileAge="1602042037538" FileType="45637" CompNumb="17" />
+      <File Name="SDK/platform/drivers/src/edma/edma_driver.c" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/edma/edma_irq.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="Generated_Code/canCom1.c" FileDate="2020-10-07, 11:40:37" FileAge="1602042037533" FileType="45637" CompNumb="17" />
+      <File Name="SDK/platform/drivers/src/edma/edma_irq.c" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/devices/devassert.h" FileDate="2019-06-25, 03:49:04" FileAge="1561405744000" FileType="262144" />
+      <File Name="Project_Settings/Linker_Files/linker_ram.ld" FileDate="2019-06-25, 03:49:06" FileAge="1561405746000" FileType="262144" />
+      <File Name="SDK/platform/devices/MPC5744P/include/MPC5744P_features.h" FileDate="2019-06-25, 03:49:06" FileAge="1561405746000" FileType="262144" />
+      <File Name="Project_Settings/Startup_Code/core0_intc_sw_handlers.S" FileDate="2019-06-25, 03:49:06" FileAge="1561405746000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/flexcan/flexcan_irq.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="Project_Settings/Startup_Code/interrupt_vectors.S" FileDate="2019-06-25, 03:49:06" FileAge="1561405746000" FileType="262144" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2020-10-07, 11:40:37" FileAge="1602042037513" FileType="45637" CompNumb="6" />
+      <File Name="SDK/platform/devices/MPC5744P/startup/system_MPC5744P.h" FileDate="2019-06-25, 03:49:06" FileAge="1561405746000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/flexcan/flexcan_irq.c" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/interrupt_manager.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2020-10-07, 11:40:37" FileAge="1602042037509" FileType="45637" CompNumb="6" />
+      <File Name="SDK/platform/devices/MPC5744P/startup/system_MPC5744P.c" FileDate="2019-06-25, 03:49:06" FileAge="1561405746000" FileType="262144" />
+      <File Name="SDK/platform/devices/status.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/mc_me_hw_access.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/interrupt/interrupt_manager_MPC57xx.c" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/cmu_hw_access.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/cgmcs_hw_access.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/clock_MPC57xx.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/cgm_hw_access.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="Project_Settings/Startup_Code/startup_MPC5744P.S" FileDate="2019-06-25, 03:49:06" FileAge="1561405746000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/clock_MPC57xx.c" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/devices/device_registers.h" FileDate="2019-06-25, 03:49:04" FileAge="1561405744000" FileType="262144" />
+      <File Name="Sources/main.c" FileDate="2019-06-25, 03:48:44" FileAge="1561405724000" FileType="128" />
+      <File Name="Documentation/flexcan_mpc5744p_learning.txt" FileDate="2020-10-07, 11:40:37" FileAge="1602042037601" FileType="3072" />
+      <File Name="SDK/platform/drivers/src/pins/siul2/siul2_hw_access.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/rtos/osif/osif.h" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2020-10-07, 11:40:37" FileAge="1602042037558" FileType="45637" CompNumb="14" />
+      <File Name="SDK/platform/drivers/src/pins/siul2/siul2_hw_access.c" FileDate="2019-06-25, 03:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2020-10-07, 11:40:37" FileAge="1602042037553" FileType="45637" CompNumb="14" />
+      <File Name="Generated_Code/pin_mux.h" FileDate="2020-10-07, 11:40:37" FileAge="1602042037529" FileType="45637" CompNumb="18" />
+      <File Name="SDK/platform/devices/common/s32_core_e200.h" FileDate="2019-06-25, 03:49:04" FileAge="1561405744000" FileType="262144" />
+      <File Name="SDK/platform/devices/MPC5744P/include/MPC5744P.h" FileDate="2019-06-25, 03:49:06" FileAge="1561405746000" FileType="262144" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>1</CodeGenReference>
+</CodeGenerationInfo>
