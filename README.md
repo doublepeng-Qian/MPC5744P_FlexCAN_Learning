@@ -1,0 +1,2 @@
+# MPC5744P_FlexCAN_Learning
+这是基于MPC5744P平台的DEVKIT开发板的FlexCAN模块测试验证的工程源码。
